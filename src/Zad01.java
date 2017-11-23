@@ -2,13 +2,12 @@ public class Zad01 {
 
     public static void main(String[] args) {
 
-        System.out.println("Uczę");
-        System.out.println("się");
-        System.out.println("programowania");
-        System.out.println("i \n" +
-                "commitowania"
-        );
 
+        String[] board = {"Uczę","się","programowania","i","commitowania"};
+
+        for (int i = 0; i<board.length; i++) {
+            System.out.println(board[i]);
+        }
 
     }
 }
